@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card.active {
+  background-color: rgb(73, 63, 211);
+}
