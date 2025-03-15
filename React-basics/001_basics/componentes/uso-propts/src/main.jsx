@@ -7,5 +7,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <PrimerComponente titulo="Bienvenido a mi app" />
   </React.StrictMode>,
 )
-
-
